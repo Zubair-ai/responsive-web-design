@@ -1,0 +1,84 @@
+body {
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+p {
+  text-align: center;
+}
+
+h1,h2 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+h2{
+  font-size: 30px;
+}
+.menu {
+  width: 80%;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+  }
+
+.item p, /* displaying the price and flavor in-line*/
+.flavor p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.flavor {
+  text-align: left;
+  width: 25%;
+}
+
+.price {
+  text-align: right;
+  width: 20%
+}
+
+.established {
+  font-style: italic;
+}
+
+.flavor,
+.dessert {
+  text-align: left;
+  width: 75%;
+}
+footer{
+  font-size: 14px;
+}
+a{ /* that target the link color*/
+  color: black;
+}
+a:visited{
+  color: black;
+}
+/* when the pointer on that link its color will be brown otherwise will be gray*/
+a:hover{
+  color:brown;
+}
+/*when the link is clicked the color will be white*/
+a:active{
+  color:brown;
+}img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
