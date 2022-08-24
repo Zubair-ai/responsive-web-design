@@ -1,0 +1,213 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+body {
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+    ;
+}
+
+.headerdiv {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#headerdiv img {
+    width: 200px;
+}
+
+li {
+    display: inline-block;
+
+}
+
+.features {
+    list-style-type: none;
+    text-underline-offset: none;
+    margin-bottom: 5px;
+    float: right;
+}
+
+.headerdiv {
+    width: 20px;
+}
+
+.features a {
+    color: black;
+    text-decoration: none;
+    padding: 12px;
+
+}
+
+.maincontainer {
+    margin: 10px;
+}
+
+.topofpage h1 {
+    text-align: center;
+}
+
+.inputbutton {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputbutton button {
+    margin-top: 15px;
+    padding: 8px;
+    background-color: orange;
+    border: none;
+}
+
+.inputbutton input {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* styling for main*/
+.firstsection img {
+    width: 80px;
+    height: 80px;
+    margin-top: 1.5em;
+
+}
+
+.secondsection img {
+    width: 80px;
+    height: 80px;
+    margin-top: 1.5em;
+}
+
+.thirdsection img {
+    width: 80px;
+    height: 80px;
+    margin-top: 1.5em;
+}
+
+.description {
+    margin: 2em;
+}
+
+.firstsection,
+.secondsection,
+.thirdsection {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-top: -1em;
+}
+
+main {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+
+}
+
+.videoyoutube {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 2em;
+}
+
+.videoyoutube video {
+    width: 100%;
+}
+
+footer a {
+    float: right;
+    margin: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    background-color: rgb(169, 190, 190);
+    text-align: right;
+    line-height: 0px;
+    margin: 0 auto;
+}
+.agg{
+    margin-top:4rem;
+    margin-bottom: 5rem;
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 90%;
+    height: 28%;
+}
+
+.firstcard,
+.secondcard,
+.thirdcard {
+    border: 1px solid;
+    margin: 3em;
+    width: 27%;
+    height: 25%;
+}
+
+h5 {
+    background-color: rgb(214, 224, 238);
+    padding: 10px;
+    margin-top: -0.1px;
+}
+
+.price {
+    text-align: center;
+}
+
+
+.firstcard,
+.secondcard,
+.thirdcard p,
+h5 {
+    text-align: center;
+}
+
+.thirdcard button {
+    margin-left: 38%;
+}
+
+#email {
+    width: 250px;
+    height: 20px;
+}
+
+.cards button {
+    margin-top: 15px;
+    padding: 8px;
+    background-color: orange;
+    border: none;
+
+}
+
+button:hover {
+    background-color: darkorange;
+}
+
+
+@media (max-width: 675px) {
+    .cards {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .firstcard,
+    .secondcard,
+    .thirdcard {
+        margin: 0 auto;
+    }
+
+    .thirdcard button {
+        margin-left: 19%;
+    }
+
+}
